@@ -1,25 +1,23 @@
 import Link from "next/link";
+import { getCategoriseArticles } from "../../lib/articles";
+import ArticleItemList from "../components/articlelistitem"
 
 export default function Home() {
-  const navButton =
-    "bg-white text-black p-4 w-32 h-16 flex items-center justify-center rounded-lg hover:bg-gray-600 transition";
+  const articles = getCategoriseArticles();
 
+  console.log(articles);
   return (
     <main>
       <div className="min-h-screen mt-16">
         {/* Buttons */}
         <div className="flex justify-center space-x-4 mt-24">
-          <Link href="/enginedevelopment" className={navButton}>
-            Engine Dev.
-          </Link>
-
-          <Link href="/generalcplusplus" className={navButton}>
-            General C++
-          </Link>
-
-          <Link href="/misc" className={navButton}>
-            Misc.
-          </Link>
+          {articles != null && Object.keys(articles).map(article => (
+            <ArticleItemList
+              category={article}
+              articles={articles[article]}
+              key={article}
+            />
+          ))}
         </div>
       </div>
     </main>
