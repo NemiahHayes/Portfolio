@@ -6,7 +6,7 @@ interface Props {
     articles: ArticleItem[]
 }
 
-const navButton = "bg-amber-200 text-black p-4 w-64 h-16 flex items-center justify-center rounded-lg hover:bg-amber-500 transition";
+const navButton = "bg-cBrown text-fWhite p-4 w-64 h-16 flex items-center justify-center rounded-lg hover:bg-vdBrown transition";
 
 const ArticleItemList = ({category, articles}: Props) => {
     return (

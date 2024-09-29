@@ -3,8 +3,9 @@ title: "Camera Development"
 category: "Engine Dev"
 date: "26-09-2024"
 ---
-![header](/images/720.jpeg)
+![header](/images/zsurvivorscam.png)
 
+# Developing a Game Camera for the GP Engine
 In order to fully realize my idea for the Individual Game Project,
 I had to develop a game camera which would move around the world with the player,
 this is a concept that isn&#39;t exactly new to gaming, however I found it a unique challenge to implement
@@ -34,5 +35,5 @@ With offset being the middle of the screen in my case.
 
 I had an issue where this actually interacted quite weirdly with my Box2D, the sprites would scale correctly, however, now the collision boxes wouldn't. I got stuck for hours on this,
 and the solution was that I hadn't actually scaled my camera properly to match the Box2D objects.
-I just had to apply my conversion function between pixel and box2d units, a literal one line job. That is all.
+So I just had to apply my Box2D conversion function before translating the coordinates. That is all.
 Lessons Learned? Really make sure you know the frameworks you're working with.
