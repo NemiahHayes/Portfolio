@@ -14,10 +14,10 @@ const ArticleItemList = ({category, articles}: Props) => {
             <center><h2 className="text-3xl">{category}</h2></center>
             <div className="flex flex-col gap-2.5 text-lg">
                 { articles.map((article, id) => (
-                    <Link href={`/${article.id}`} className={navButton}>
+                    <Link key={`/${id}`} href={`/${article.id}`} className={navButton}>
                         {article.title}
                     </Link>
-                ))}
+                ))} 
             </div>
         </div>
     )

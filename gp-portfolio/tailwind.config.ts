@@ -16,6 +16,7 @@ const config: Config = {
         cBrown: "#81523F",
         rGreen: "#7C9082",
         ssGold: "#C89933",
+        code: "#C16DD6",
       },
     },
   },
