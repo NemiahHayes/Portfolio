@@ -29,6 +29,13 @@ h1 {
 }
 
 code {
-  color: var(--code);
+  color: brown;
   font-size: small;
+}
+
+blockquote {
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
 }
