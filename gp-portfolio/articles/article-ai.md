@@ -3,10 +3,26 @@ title: "AI Creation"
 category: "Misc"
 date: "27-09-2024"
 ---
-![header](/images/1280720.jpeg)
+![header](/images/aistatemachine.png)
 # Simple Artificial Intelligence
 
-The AI for my Game Project was a real simple case of literally finding the player's position and applying velocity in that direction.
+## AI States
+
+The AI of Zombie Survivors is managed by States, a simple enum variations that dictates the entity's current behaviours. The states consist of:
+
+``
+	SPAWNING,
+	CHASING,
+	ATTACKING,
+	DEATH,
+	MINIONS
+``
+
+Each process cycle, a method would check certain conditions, and upon meeting these conditions would change the state, after the state has been changed the AI would call that states given method.
+
+## AI Movement
+
+The AI movement for my Game Project was a simple case of finding the player's position and applying velocity in that direction.
 
 **Pseudo Code**
 
@@ -39,4 +55,3 @@ The AI for my Game Project was a real simple case of literally finding the playe
 		SetVelocity(b2Vec2(finalVelX, finalVelY));
 	}
 
-> "complex problems require simple solutions" - idk

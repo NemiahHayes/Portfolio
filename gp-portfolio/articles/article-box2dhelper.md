@@ -3,7 +3,7 @@ title: "Box2D Conversion"
 category: "General C++"
 date: "26-08-2024"
 ---
-![header](/images/1280720.jpeg)
+![header](/images/720.jpeg)
 
 # Creating an inlinehelper to ease the struggle of Box2D
 

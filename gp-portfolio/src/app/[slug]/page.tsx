@@ -19,7 +19,7 @@ const Article = async ({ params }: { params: { slug: string } }) => {
                     <p className="mx-12 text-sm">{articleData.date.toString()}</p>
                 </center>
             </div>
-            <article className="flex flex-col gap-3 text-m text-left px-96 mt-6 tracking-wide " dangerouslySetInnerHTML={{__html: articleData.contentHTML }} />
+            <article className="flex flex-col gap-3 text-m text-left pl-96 mt-6 tracking-wide " dangerouslySetInnerHTML={{__html: articleData.contentHTML }} />
         </section>
     )
 }
