@@ -3,7 +3,7 @@ title: "Entity Class"
 category: "General C++"
 date: "23-09-2024"
 ---
-![header](/images/entitydiagram.jpeg)
+![header](/images/entitydiagram.jpg)
 
 # Inheritance and Entities
 
