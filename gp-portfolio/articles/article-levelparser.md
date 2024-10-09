@@ -109,7 +109,9 @@ Here we can see an example of the ini file, and then the dynamically generated l
     ###### #### ### ### ##
 
 ![imgarticle](images/BlockBloke_debug_E312KJJZpO.png)
+
 *level 2 in ini example*
 
 ![imgarticle](images/BlockBloke_debug_V0jvGIXOze.png)
+
 *level 3 in ini example*
