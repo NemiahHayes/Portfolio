@@ -4,7 +4,7 @@ category: "Engine Dev"
 date: "26-08-2024"
 ---
 
-![header](images\notepad_RrbO2wOWBv.png)
+![header](/images/notepad_RrbO2wOWBv.png)
 
 # Parsing for Data
 
