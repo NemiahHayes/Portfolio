@@ -4,7 +4,6 @@ import ArticleItemList from "../components/articlelistitem"
 export default function Home() {
   const articles = getCategoriseArticles();
 
-  console.log(articles);
   return (
     <main>
       <div className="min-h-screen mt-16">

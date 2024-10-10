@@ -1,6 +1,6 @@
 ---
 title: "Sprite Animation"
-category: "General C++"
+category: "Misc"
 date: "28-08-2024"
 ---
 ![header](/images/1280720.jpeg)

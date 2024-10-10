@@ -16,7 +16,6 @@ const getSortedArticles = (): ArticleItem[] => {
         const id = fileName.replace(/\.md$/, "")
 
         const fullPath = path.join(articleDirectory, fileName)
-        console.log(fullPath)
 
         const fileContents = fs.readFileSync(fullPath, "utf-8")
 
