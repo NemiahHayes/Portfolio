@@ -27,5 +27,3 @@ All I had to make sure was that when creating these classes that they inherited 
     {
         //Member Methods and Data
     }
-
-
