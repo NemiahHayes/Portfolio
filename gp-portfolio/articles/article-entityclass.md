@@ -3,7 +3,7 @@ title: "Entity Class"
 category: "General C++"
 date: "23-09-2024"
 ---
-![header](/images/entitydiagram.jpeg)
+![header](/images/entitydiagram.jpg)
 
 # Inheritance and Entities
 
@@ -27,5 +27,3 @@ All I had to make sure was that when creating these classes that they inherited 
     {
         //Member Methods and Data
     }
-
-

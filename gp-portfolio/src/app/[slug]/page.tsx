@@ -8,7 +8,7 @@ const Article = async ({ params }: { params: { slug: string } }) => {
     return (
         <section className="my-24 mx-32 ">
             <div className="flex justify-center">
-                <Link href={"/"} className="flex flex-row gap-5 mx-2 place-items-center">
+                <Link href={"/"} className="text-black flex flex-row gap-5 mx-2 place-items-center">
                     < ArrowLeftIcon width={20} />
                     <p>Return</p>
                 </Link>

@@ -10,7 +10,7 @@ export default function Navbar() {
         
         {/* Logo */}
         <div className="text-fWhite text-2xl font-bold pl-2">
-          <Link href="/">Nemiah&#39;s Epic Gaming Portfolio</Link>
+          <Link className="text-fWhite" href="/">Nemiah&#39;s Epic Gaming Portfolio</Link>
         </div>
       </div>
     </nav>
